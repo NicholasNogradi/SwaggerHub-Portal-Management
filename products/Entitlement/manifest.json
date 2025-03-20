@@ -45,8 +45,8 @@
         {
             "order": 4,
             "parent": "",
-            "name": "Entitlement API",
-            "slug": "entitlement-api",
+            "name": "EntitlementServicePaloAlto",
+            "slug": "EntitlementServicePaloAlto",
             "type": "apiUrl",
             "contentUrl": "https://api.swaggerhub.com/apis/NicksDemoOrg/EntitlementServicePaloAlto/v1/swagger.json"
         }

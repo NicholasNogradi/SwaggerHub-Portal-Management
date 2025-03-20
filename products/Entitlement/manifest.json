@@ -1,0 +1,54 @@
+{
+    "productMetadata": {
+        "description": "This product gives the ability to programmatically embedded a Pet adoption workflow into your application 🐶",
+        "slug": "entitlement-service",
+        "public": true,
+        "hidden": false,
+        "logo": "images/AdoptionsAPI.png",
+        "logoDark": "",
+        "autoPublish": true,
+        "validateAPIs": true
+    },
+    "contentMetadata": [
+        {
+            "order": 0,
+            "parent": "",
+            "name": "How-to-Guide",
+            "slug": "how-to-guide",
+            "type": "markdown",
+            "contentUrl": "how-to-guide.md"
+        },
+        {
+            "order": 1,
+            "parent": "",
+            "name": "Authentication",
+            "slug": "authentication",
+            "type": "markdown",
+            "contentUrl": "authentication.md"
+        },
+        {
+            "order": 2,
+            "parent": "",
+            "name": "Best Practices",
+            "slug": "best-practices",
+            "type": "markdown",
+            "contentUrl": "best-practices.md"
+        },
+        {
+            "order": 3,
+            "parent": "",
+            "name": "FAQ",
+            "slug": "faq",
+            "type": "markdown",
+            "contentUrl": "faq.md"
+        },
+        {
+            "order": 4,
+            "parent": "",
+            "name": "Entitlement API",
+            "slug": "entitlement-api",
+            "type": "apiUrl",
+            "contentUrl": "https://api.swaggerhub.com/apis/NicksDemoOrg/EntitlementServicePaloAlto/v1/swagger.json"
+        }
+    ]
+}

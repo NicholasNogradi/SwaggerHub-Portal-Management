@@ -124,7 +124,7 @@ jobs:
           done
         env:
           SWAGGERHUB_API_KEY: ${{ secrets.SWAGGERHUB_API_KEY }}
-          SWAGGERHUB_ORG_NAME: ${{ vars.SWAGGERHUB_ORG_NAME }} 
+          SWAGGERHUB_ORG_NAME: ${{ secrets.SWAGGERHUB_ORG_NAME }} 
 
 
   publish:
@@ -160,6 +160,6 @@ jobs:
             fi
           done
         env:
-            SWAGGERHUB_PORTAL_SUBDOMAIN: ${{ vars.SWAGGERHUB_PORTAL_SUBDOMAIN }}          
+            SWAGGERHUB_PORTAL_SUBDOMAIN: ${{ secrets.SWAGGERHUB_PORTAL_SUBDOMAIN }}          
 
     
